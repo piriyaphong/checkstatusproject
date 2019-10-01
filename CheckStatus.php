@@ -86,9 +86,9 @@ textbox{
 
 <?php
 $servername  = "178.128.63.128";
-$username = "TCEformSQL";
-$password = "TCEsut1234*";
-$dbname = "SUT_Student_Project";
+$username = "";
+$password = "*";
+$dbname = "s";
 $con = mysqli_connect($servername, $username, $password, $dbname);
 if( $con->connect_error){
     die('Error: ' . $con->connect_error);
